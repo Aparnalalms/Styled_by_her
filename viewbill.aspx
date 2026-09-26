@@ -295,12 +295,8 @@
                             <!-- SHOP LOGO -->
 
                             <div class="logo_container">
-
-                                <a href="#">
-                                    colo<span>shop</span>
-                                </a>
-
-                            </div>
+							<a href="#">Styled by<span> her</span></a>
+						</div>
 
 
                             <!-- NAVIGATION -->
@@ -309,17 +305,24 @@
 
                                 <ul class="navbar_menu">
 
-                                    <li>
-                                        <a href="#">home</a>
-                                    </li>
+                                   	<li><a href="User/login1.aspx">home</a></li>
+								<li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        Register
+    </a>
 
-                                    <li>
-                                        <a href="#">Register</a>
-                                    </li>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="Reg.aspx">
+            User Registration
+        </a>
 
-                                    <li>
-                                        <a href="#">shop</a>
-                                    </li>
+        <a class="dropdown-item" href="adminregg.aspx">
+            Admin Registration
+        </a>
+    </div></li>
+
+                                   
+
+                                  
 
                                     <li>
                                         <a href="#">pages</a>
@@ -329,9 +332,9 @@
                                         <a href="#">blog</a>
                                     </li>
 
-                                    <li>
+                                   <%-- <li>
                                         <a href="contact.html">contact</a>
-                                    </li>
+                                    </li>--%>
 
                                 </ul>
 
@@ -409,7 +412,7 @@
 
             <div>
 
-                <h1>COLOSHOP</h1>
+                <h1>Styed By Her</h1>
 
                 <p>
                     123, Panambilly Nagar,Street, Kochi
@@ -514,7 +517,7 @@
     runat="server"
     Text="Payment"
     Width="220px"
-    PostBackUrl="~/paymentpage.aspx" />
+    PostBackUrl="~/paymentpage.aspx" BackColor="White" Font-Bold="True" />
 
             </h3>
 

@@ -358,7 +358,7 @@
     <div class="header">
 
         <div class="logo">
-            COLO<span>SHOP</span>
+            Styled By<span>Her</span>
         </div>
 
     </div>
@@ -579,17 +579,11 @@
     </div>
 
 
-    <!-- FOOTER -->
-
     <div class="footer">
 
-        COLOSHOP © 2026
+        <div class="footer">
 
-    TER -->
-
-    <div class="footer">
-
-        COLOSHOP © 2026
+            Styled By Her © 2026
 
     </div>
 

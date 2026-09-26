@@ -43,7 +43,7 @@
         <tr>
             <td style="width: 215px">&nbsp;</td>
             <td style="width: 145px">
-                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" BorderColor="#CC0000" ForeColor="White" BackColor="#CC0000" Font-Bold="True" Font-Italic="True" Height="24px" Width="111px" />
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" BorderColor="#663300" ForeColor="White" BackColor="#663300" Font-Bold="True" Font-Italic="True" Height="24px" Width="111px" />
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

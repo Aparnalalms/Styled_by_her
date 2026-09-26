@@ -296,25 +296,25 @@
         <header class="header">
 
             <div class="logo">
-                colo<span>shop</span>
+                Styled By<span>Her</span>
             </div>
 
             <nav class="navbar">
 
                 <a href="adminhomepage.aspx" class="admin-text">
-                    Admin Home
+                  Home
                 </a>
 
                 <a href="#">
-                    Orders
+                    Register
                 </a>
 
                 <a href="#">
-                    Customers
+                   Pages
                 </a>
 
                 <a href="#">
-                    Logout
+                    Blog
                 </a>
 
             </nav>

@@ -27,26 +27,38 @@
          <div>
             	<header class="header trans_300">
         
-            <div class="auto-style9">
+          	<div class="main_nav_container">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-right">
 						<div class="logo_container">
-							<a href="#">colo<span>shop</span></a>
+							<a href="#">Styled by<span> her</span></a>
 						</div>
 						<nav class="navbar">
 							<ul class="navbar_menu">
-								<li><a href="#">home</a></li>
-								<li><a href="#">Register</a></li>
-								<li><a href="#">shop</a></li>
+								<li><a href="User/login1.aspx">home</a></li>
+								<li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        Register
+    </a>
+
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="Reg.aspx">
+            User Registration
+        </a>
+
+        <a class="dropdown-item" href="adminregg.aspx">
+            Admin Registration
+        </a>
+    </div></li>
+								<%--<li><a href="#">shop</a></li>--%>
 							    <li><a href="#">pages</a></li>
 								<li><a href="#">blog</a></li>
-								<li><a href="contact.html">contact</a></li>
+							<%--	<li><a href="contact.html">contact</a></li>--%>
 							</ul>
 							<ul class="navbar_user">
 								<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                                    <%--	<li class="checkout">
+<%--								<li class="checkout">
 									<a href="#">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										<span id="checkout_items" class="checkout_items">2</span>

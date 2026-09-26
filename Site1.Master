@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 <html>
-<head <Colo Shop</title>
+<head <title>Styled By Her</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Colo Shop Template">
@@ -26,58 +26,7 @@
 
 		<!-- Top Navigation -->
 
-		<div class="top_nav">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<<%--div class="top_nav_left">free shipping on all u.s orders over $50</div>--%>
-					</div>
-					<div class="col-md-6 text-right">
-						<div class="top_nav_right">
-							<ul class="top_nav_menu">
-
-								<!-- Currency / Language / My Account -->
-
-								<li class="currency">
-									<a href="#">
-										usd
-										<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="currency_selection">
-										<li><a href="#">cad</a></li>
-										<li><a href="#">aud</a></li>
-										<li><a href="#">eur</a></li>
-										<li><a href="#">gbp</a></li>
-									</ul>
-								</li>
-								<li class="language">
-									<a href="#">
-										English
-										<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="language_selection">
-										<li><a href="#">French</a></li>
-										<li><a href="#">Italian</a></li>
-										<li><a href="#">German</a></li>
-										<li><a href="#">Spanish</a></li>
-									</ul>
-								</li>
-								<li class="account">
-									<a href="#">
-										My Account
-										<i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="account_selection">
-										<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-										<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 
 		<!-- Main Navigation -->
 
@@ -90,12 +39,24 @@
 						</div>
 						<nav class="navbar">
 							<ul class="navbar_menu">
-								<li><a href="#">home</a></li>
-								<li><a href="#">Register</a></li>
-								<li><a href="#">shop</a></li>
+								<li><a href="User/login1.aspx">home</a></li>
+								<li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        Register
+    </a>
+
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="Reg.aspx">
+            User Registration
+        </a>
+
+        <a class="dropdown-item" href="adminregg.aspx">
+            Admin Registration
+        </a>
+    </div></li>
+								<%--<li><a href="#">shop</a></li>--%>
 							    <li><a href="#">pages</a></li>
 								<li><a href="#">blog</a></li>
-								<li><a href="contact.html">contact</a></li>
+							<%--	<li><a href="contact.html">contact</a></li>--%>
 							</ul>
 							<ul class="navbar_user">
 								<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
@@ -169,20 +130,55 @@
 
 	<!-- Slider -->
 
-	<div class="main_slider" style="background-image:url(images/slider_1.jpg)">
-		<div class="container fill_height">
-			<div class="row align-items-center fill_height">
-				<div class="col">
-					
-					<div class="main_slider_content">
-						<h3>Wear what makes you feel beautiful. Add the accessories that make you feel unforgettable.
-</h3>
-						<br>
-						<h6>Because every look deserves a little sparkle</h6>
+<div class="main_slider" style="background-image:url(images/background.jpg)">
+    <div class="container fill_height">
+        <div class="row align-items-center fill_height">
+            <div class="col">
+
+                <div class="main_slider_content">
+
+                    <h1 style="
+                        font-family: 'Cormorant Garamond', serif;
+                        line-height: 1.05;
+                        margin-bottom: 25px;
+                        letter-spacing: 0.3px;
+                    ">
+
+                      <%--  <span style="
+                            display: block;
+                            font-size: 38px;
+							   font-style: italic;
+                            font-weight: 500;
+                        ">
+                            Wear what makes you feel beautiful.
+                        </span>--%>
+
+                        <span style="
+                            display: block;
+                            font-size: 52px;
+                            font-weight: 600;
+                            font-style: italic;
+                            margin-top: 8px;
+                        ">
+							  Wear what makes you feel beautiful
+                           <%-- Add the Accessories that make you feel unforgettable.--%>
+                        </span>
+
+                    </h1>
+
+
+
+
+<h4 style="font-family: 'Montserrat', sans-serif; 
+           font-size: 13px; 
+           letter-spacing: 2px;">
+    Because every look deserves a little sparkle
+</h4>
 					
 <%--						<h8>Small accessories, unforgettable style</h8>--%>
 						
 <%--						<div class="red_button shop_now_button"><a href="#">shop now</a></div>--%>
+					<br />
 									<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 						<div>
@@ -196,34 +192,43 @@
 
 	<!-- Banner -->
 
-	<div class="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/banner_1.jpg)">
-						<div class="banner_category">
-							<a href="categories.html">women's</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/banner_2.jpg)">
-						<div class="banner_category">
-							<a href="categories.html">accessories's</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/banner_3.jpg)">
-						<div class="banner_category">
-							<a href="categories.html">men's</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="banner">
+    <div class="container">
+        <div class="row">
 
+            <!-- CLASSIC -->
+            <div class="col-md-4">
+                <div class="banner_item align-items-center"
+                     style="background-image:url(images/classic.jpg)">
+                    <div class="banner_category">
+                        <a href="categories.html">Classic</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ELEGANT -->
+            <div class="col-md-4">
+                <div class="banner_item align-items-center"
+                     style="background-image:url(images/elegant.jpg)">
+                    <div class="banner_category">
+                        <a href="categories.html">Elegant</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TRENDY -->
+            <div class="col-md-4">
+                <div class="banner_item align-items-center"
+                     style="background-image:url(images/trendy.jpg)">
+                    <div class="banner_category">
+                        <a href="categories.html">Trendy</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 	<%--<!-- New Arrivals -->
 
 	<div class="new_arrivals">

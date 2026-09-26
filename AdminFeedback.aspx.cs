@@ -44,14 +44,14 @@ namespace trail2
             }
 
 
-            string subject = "Reply to your FoodMart Feedback";
+            string subject = "Reply to your  Feedback";
 
 
             string body = @"
                 <html>
                 <body>
 
-                    <h2>COLOSHOP</h2>
+                    <h2>Styled By Her</h2>
 
                     <p>Dear Customer,</p>
 
@@ -69,7 +69,7 @@ namespace trail2
 
                     <p>
                         Regards,<br />
-                        COLOSHOP Admin
+                        Styled By Her Admin
                     </p>
 
                 </body>
@@ -79,7 +79,7 @@ namespace trail2
             try
             {
                 SendEmail2(
-                    "COLOSHOP Admin",
+                    "Styled By Her Admin",
                     "aparnalalms@gmail.com",
                     "mxqi dxzb rjkt gotl",
                     "Customer",
